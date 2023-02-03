@@ -1,0 +1,13 @@
+public class OperadorTernario {
+    public static void main(String[] args) {
+        
+        int nota = 6; 
+        // em seguida a abreviação
+        //String  resultado = nota >=7 ? "Aprovado" : "Reprovado"; 
+        
+        String resultado = nota >= 7 ?"Aprovado" : nota >=5 && nota <7 ? "Recuperação" : "Reprovado"; 
+
+        System.out.println(resultado);
+
+    }
+}
